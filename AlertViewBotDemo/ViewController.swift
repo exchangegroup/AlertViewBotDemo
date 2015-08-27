@@ -37,10 +37,8 @@ class ViewController: UIViewController {
     
     if let textField = alertView.textFieldAtIndex(0) {
       textField.placeholder = title
-      textField.autocapitalizationType = UITextAutocapitalizationType.Sentences
+//      textField.autocapitalizationType = UITextAutocapitalizationType.Sentences
       textField.autocorrectionType = UITextAutocorrectionType.Default
-//      textField.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
-//      textField.clearButtonMode = UITextFieldViewMode.Always
     }
     
     alertView.show()
