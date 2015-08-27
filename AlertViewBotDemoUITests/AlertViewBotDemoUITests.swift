@@ -9,8 +9,6 @@ class AlertViewBotDemoUITests: XCTestCase {
     app.buttons["Open alert"].tap()
     let collectionViewsQuery = app.alerts["Email"].collectionViews
     collectionViewsQuery.textFields["Email"].typeText("john@marketplacer.com")
-    collectionViewsQuery.buttons["OK"].tap()
-    
-    XCTAssert(false)
+    collectionViewsQuery.buttons["OK"].tap()    
   }
 }
