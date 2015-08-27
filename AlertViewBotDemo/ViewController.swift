@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     let alertView = UIAlertView(title: title,
       message: "",
       delegate: nil, cancelButtonTitle: nil,
-      otherButtonTitles: "OK", "Cancel")
+      otherButtonTitles: "OK",
+      "Cancel")
     
     alertView.cancelButtonIndex = 1
     alertView.alertViewStyle = UIAlertViewStyle.PlainTextInput
