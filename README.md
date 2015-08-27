@@ -1,4 +1,4 @@
-# iOS demo app: UI Test fails in Xcode bot for alert view with text box
+#  iOS app that demonstrates an issue with a UI Test when it is run by Xcode bot
 
 An iOS app demo that reproduces an issue with UI test. In the UI test we open a UIAlertView and fill the text box.
 
