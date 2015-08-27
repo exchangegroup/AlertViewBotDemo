@@ -29,7 +29,5 @@ class ViewController: UIViewController {
     
     alertView.show()
   }
-
-
 }
 
