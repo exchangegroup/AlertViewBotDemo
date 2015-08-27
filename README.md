@@ -10,5 +10,7 @@ UI test runs successfully in Xcode but fails when run by Xcode bot:
 ## Software used
 
 Server API v6
+
 SDKs: OS X 15A244e, watchOS 13S5325c, iOS 13A4325c
+
 OS X 10.11 (15A263e), Xcode 7.0 (7A192o), OS X Server 5.0.1 (15S2235)
