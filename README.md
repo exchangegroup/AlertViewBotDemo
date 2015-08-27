@@ -7,6 +7,28 @@ UI test runs successfully in Xcode but fails when run by Xcode bot:
 > Assertion Failure: UI Testing Failure - failed: Timed out waiting for key event to complete
 
 
+Here is the text log
+
+```
+Here is the test log:
+
+> Type 'john@marketplacer.com' into
+  Wait for app to idle
+  > Find the "Email" TextField
+    Snapshot accessibility hierarchy...
+    Find: Descendants matching type Alert
+    Find: Elements matching predicate '"Email" IN identifiers'
+    Find: Descendants matching type CollectionView
+    Find: Descendants matching type TextField
+    Find: Elements matching predicate '"Email" IN identifiers'
+    Wait for app to idle
+  > Check for UI Interruption: Descendants matching type Alert
+    Snapshot accessibility hierarchy...
+    Find: Descendants matching type Alert
+  > (IN RED) Synthesise event
+    (IN RED) Assertion Failure: UI Testing Failure - failed: Timed out waiting for key event to complete
+```
+
 ## Software used
 
 Server API v6
