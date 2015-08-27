@@ -25,6 +25,8 @@ class ViewController: UIViewController {
       textField.placeholder = title
       textField.autocapitalizationType = UITextAutocapitalizationType.Sentences
       textField.autocorrectionType = UITextAutocorrectionType.Default
+      textField.font = UIFont.preferredFontForTextStyle(UIFontTextStyleBody)
+      textField.clearButtonMode = UITextFieldViewMode.Always
     }
     
     alertView.show()
