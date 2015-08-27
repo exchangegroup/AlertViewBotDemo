@@ -10,7 +10,6 @@ class AlertViewBotDemoUITests: XCTestCase {
   }
   
   func testExample() {
-    
     let app = XCUIApplication()
     app.buttons["Open alert"].tap()
     
