@@ -1,5 +1,7 @@
 #  iOS app that demonstrates an issue with a UI Test when it is run by Xcode bot
 
+This repository can be deleted after October 2015.
+
 An iOS app demo that reproduces an issue with UI test. In the UI test we open a UIAlertView and fill the text box.
 
 UI test runs successfully in Xcode but fails when run by Xcode bot:
